@@ -62,14 +62,14 @@ a{
 }
 
 .main{
-    background-image: url('img/work_together.jpg');
+    background-image: url('img/work_together1.jpg');
     height: 94vh;
     background-size: cover;
-    color: black;
+    color: rgba(0, 0, 0, 0.774);
 }
 
 .main>.container{
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .4);
     height: 94vh;
 }
 
@@ -78,9 +78,9 @@ a{
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-}
+} */
 
 .main section{
     height: 22vh;
@@ -100,6 +100,26 @@ a{
     justify-content: space-around;
     align-items: center;
 }
+
+div>h1{
+    font-size: 8em;
+}
+div>h3{
+    font-size: 4em;
+    font-weight: 500;
+}
+
+div>h5{
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 400;
+}
+
+div>h2{
+    font-size: 5em;
+    font-weight: 500;
+}
+
 
 
 .aboutme{
