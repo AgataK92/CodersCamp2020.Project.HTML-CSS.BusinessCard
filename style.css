@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    /* font-family: 'Spartan', sans-serif; */
+    /* font-family: 'News Cycle', sans-serif; */
+    font-family: 'Dosis', sans-serif;
+    color: #222;
+    font-size: 10px;
+}
+
+.wrap {
+    max-width: 100vw;
+}
+
+a{
+    color: white;
+}
+
+.nav_bar{
+    /* background-color: #80aeb2f3; */
+    background-color: #77a3a8;
+    padding: 0.5em 16em;
+    border-bottom: 3px solid #4e6a6d75;
+    place-self: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.65em;
+}
+
+.nav_links{
+    color: white;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    font-weight: 500;
+    transition: transform .3s ease-in-out;
+}
+
+.nav_links:hover{
+    transform: scale(1.3);
+    font-weight: 700;
+    }
+
+#logo{
+    background-color: #313134d2;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-family: 'Monoton';
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: 3rem;
+}
+
+.main{
+    background-image: url('img/work_together.jpg');
+    height: 94vh;
+    background-size: cover;
+    color: black;
+}
+
+.main>.container{
+    background-color: rgba(255, 255, 255, .3);
+    height: 94vh;
+}
+
+.main header{
+    height: 72vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main section{
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick_links{
+    width: 85vw;
+    margin: auto;
+    box-sizing: padding-box;
+    background-color: #80aeb2f3;
+    padding: 2em;
+    border: 3px solid #4e6a6d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.aboutme{
+    background-color: #D9D3C6
+}
+
+.skills{
+    background-color: #D9D3C6
+}
+
+.footer{
+    background-color: #D08A6A;
+}
