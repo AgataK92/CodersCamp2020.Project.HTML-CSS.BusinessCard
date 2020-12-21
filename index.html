@@ -15,88 +15,110 @@
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Spartan:wght@400;500;600&display=swap" rel="stylesheet"> -->
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=News+Cycle:wght@400;700&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&family=Monoton&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<div class="wrap">
-        <nav class="nav_bar">
-            <a href="#about_me" class="nav_links">About me</a>
-            <a href="#skills" class="nav_links">Skills</a>
+    <nav class="navbar">
+        <section class="container flex">
+            <div class="nav-item flex">
+                <a href="#about_me" class="navlink">About me</a>
+                <a href="#portfolio">Portfolio</a>
+             </div>
             <div id="logo">
                 AK
             </div>
-            <a href="#footer" class="nav_links">Contact</a>
-            <a href="#footer" class="nav_links">Let's talk!</a>
-        </nav>
+            <div class="nav-item flex">
+                <a href="#footer">Contact</a>
+                <a href="#footer">Let's talk!</a>
+            </div>
+        </section>
+    </nav>
     <div class="main">
-        <div class="container">
-            <header>
-                <div>
-                    <h1>Hello, I'm Agata Kurowska</h1>
-                    <h3>Project Engineer, Aspiring Frontend Developer</h3>
-                </div>
-                <div>
-                    <div><img src="" alt="portrait photo"></div>
-                    <a href=""><img src="" alt="linkedin"></a>
-                    <a href=""><img src="" alt="facebook"></a>
-                </div>
-                <div>
-                    <h5 class="quote">“Either you run the day or the day runs you.”<br>Jim Rohn</h5>
-                </div>
-            </header>
-            <section>
-                <div class="quick_links">
-                    <div class="links">
-                        <button>Contact me</button>
+        <div class="background-transparency">
+            <div class="container">
+                <header>
+                    <div>
+                        <h1>Hello, I'm Agata Kurowska</h1>
+                        <h3>Project Engineer, Aspiring Frontend Developer</h3>
                     </div>
                     <div>
-                        <h2>Let's work together!</h2>
+                        <div><img src="" alt="portrait photo"></div>
                     </div>
                     <div>
-                        <button>My resume</button>
+                        <h5 class="quote">“Either you run the day or the day runs you.”<br>Jim Rohn</h5>
+                    </div>
+                </header>
+                <section>
+                    <div class="contact-bar flex">
+                        <div class="links"><a href="index.html">Contact me</a></div>
+                        <div>Let's work together!</div>
+                        <div class="links">My resume</div>
+                    </div>
+                </section>
+            </div>
+            <div class="details">
+                <div class="container">
+                    <div id="about_me">
+                        <h3>About me</h3>
+                        <div class="info">
+                            <div class="left">
+                                <ul><p>My strengths:</p>
+                                    <li>team-player</li>
+                                    <li>focused</li>
+                                    <li>client-oriented</li>
+                                </ul>
+                            </div>
+                            <div class="right">I work as Project Engineer for Aerospace company. Project management is what I am comitted to pursue as my future career. I am passionate about managing multi-functional teams and coordinating their actions towards new product development with special attention for communication and client requirements. Interested in Agile Project management.<br>Personally I am a quiet person, in my free time I enjoy playing RPG games, reading books, hiking and climbing.</div>
+                        </div>
+                    </div>
+                    <div id="portfolio">
+                        <div><h3>Portfolio</h3></div>
+                        <div class="projects">
+                            <div><img src="" alt="">project 1</div>
+                            <div><img src="" alt="">project 2</div>
+                            <div><img src="" alt="">project 3</div>
+                            <div><img src="" alt="">project 4</div>
+                        </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     </div>
-
-    <div class="aboutme" id="about_me">
-       <div><h2>About me / Get to know me</h2></div>
-
-        <div>
-            Name: Agata Kurowska <br> Address:
-        </div>
-
-        <div class="introduction">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur possimus nobis vero, sit laudantium illum ducimus illo accusamus sapiente maiores quidem enim facere magni asperiores, aliquam rem laborum hic dolorum?</div>
-    </div>
-
-    <div class="skills" id="skills">
-        <div><h2>Skills</h2></div>
-        <div>
-            flex table
-        </div>
-    </div>
-
-    <div class="footer" id="footer">
+    <div class="flex" id="footer">
         <div class="contact">
+            <div>Contact me:</div>
             <div>
-                <h5>Contact me</h5>
-            </div>
-            <div>
-                Tu będą dane moje
+                <div>Agata Kurowska</div>
+                <div>phone: XXXXXXXXX</div>
+                <div>email: XXXXXXXXXX@gmail.com</div>
             </div>
         </div>
-        <div class="form">
-            <div>
-                <h5>Let's chat</h5>
+        <div>
+            <div>Let's chat</div>
+            <div class="form">
+                <input type="text" name="name" placeholder="Name" required>
             </div>
-            u będzie formularz kontaktowy
+            <div class="form">
+                <input type="text" name="company" placeholder="Company">
+            </div>
+            <div class="form">
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form">
+                <input type="text" name="message" placeholder="Write here" required>
+            </div>
+                <input type="submit" value="Send" class="links">
+
 
         </div>
     </div>
-</div>
+
+
+
 
 
 </body>
